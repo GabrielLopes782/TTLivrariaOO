@@ -50,8 +50,10 @@ public class LivrariaOO {
         CE.mokEditoras();
         int op;
         do {
+            System.out.println("Seja Bem vindo");
             System.out.println("Menu\n |1-Cadastro Cliente| \n |2-Consulta Clientes| \n |3-Cadastro Editora| \n |4-Consulta Editora| \n |5-Cadastro Livros| \n |6- Listar Livros Cadastrados| \n |7-Realizar uma venda|\n |8- Consultar vendas| \n |9-Atualiza Clientes|");
             op = ler.nextInt();
+            
             switch (op) {
                 case 1:
 
